@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MemoryGameView: View {
     @ObservedObject var viewModel: EmojiMemoryGame
     var emojiList = ["✈️","🏀", "🎃",  "🎩", "👑","🐨","🍎","🎲","🚗","☎️","🦆","🐝", "🍫","🔫"]
     
@@ -38,7 +38,7 @@ struct ContentView: View {
 
 
 #Preview {
-    ContentView(viewModel: EmojiMemoryGame())
+    MemoryGameView(viewModel: EmojiMemoryGame())
     
         
         
